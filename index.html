@@ -1,0 +1,36 @@
+<!doctype html>
+  <html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+          <title> Reprodutor de músicas </title>
+            <link rel="icon favicon" href="./arquivos/favicon.png">
+            <link rel="stylesheet" href="style.css">
+              <script defer src="./script.js"></script>
+      </head>
+        <body>
+          
+          <div class="reprodutor flex column">
+              <div class="info flex column">
+                  <div class="musica flex">
+                      <i id="i-artista"> MC Felipe Boladão </i>
+                      <i id="i-musica"> A viagem </i>
+                    </div>
+                      <div class="duracao flex">
+                          <div class="barra flex">
+                              <progress value="0" id="progresso"></progress>
+                                <div class="ponto">
+                                  </div>
+                            </div>
+                        </div>
+                      <div class="icones flex">
+                          <img src="./arquivos/proxima.png" alt="Música anterior" id="anterior">
+                          <img src="./arquivos/tocar.png" alt="Tocar música" id="tocar">
+                          <img src="./arquivos/pausar.png" alt="Pausar música" class="none" id="pausar">
+                          <img src="./arquivos/proxima.png" alt="Próxima música" id="proxima">
+                        </div>
+                </div>
+            </div>
+          
+      </body>
+</html>
